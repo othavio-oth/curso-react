@@ -1,0 +1,10 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.app-exercises {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

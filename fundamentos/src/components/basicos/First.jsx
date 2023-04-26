@@ -1,10 +1,10 @@
 import React, { Fragment } from "react";
 
-export default function Primeiro() {
+export default function First() {
   const message = "Primeiro Componente!";
   return (
     <Fragment>
-      <h1>{message}</h1>
+      <p>{message}</p>
     </Fragment>
   );
 }

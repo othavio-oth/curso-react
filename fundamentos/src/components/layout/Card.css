@@ -1,0 +1,23 @@
+.card {
+  border: 3px solid;
+  margin: 0;
+  border-radius: 10px;
+  overflow: auto;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.title {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  margin: 0%;
+}
+.content {
+  background-color: aliceblue;
+  color: black;
+  padding: 25px 10px;
+  margin: 0%;
+  flex-grow: 1;
+}
