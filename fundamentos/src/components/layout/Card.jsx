@@ -9,7 +9,7 @@ export default (props) => {
   return (
     <div className="card" style={cardStyle}>
       <h2 className="title">{props.title}</h2>
-      <p className="content">{props.children}</p>
+      <div className="content">{props.children}</div>
     </div>
   );
 };
