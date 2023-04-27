@@ -1,12 +1,12 @@
 import "./App.css";
 
 import React from "react";
-import Family from "./components/basicos/Family";
-import First from "./components/basicos/First";
-import RandomNumber from "./components/basicos/RamdomNumber";
-import WithParams from "./components/basicos/WithParams";
+import Family from "./components/basics/Family";
+import First from "./components/basics/First";
+import RandomNumber from "./components/basics/RamdomNumber";
+import WithParams from "./components/basics/WithParams";
 import Card from "./components/layout/Card";
-import FamilyMember from "./components/basicos/FamilyMember";
+import FamilyMember from "./components/basics/FamilyMember";
 import StudentsList from "./components/repetition/StudentsList";
 import ProductsTable from "./components/repetition/ProductsTable";
 
