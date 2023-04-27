@@ -1,0 +1,14 @@
+.products-table {
+  width: 100%;
+}
+.table-head {
+  background-color: #0180fd;
+  color: white;
+}
+
+.par {
+  background-color: #99e6fc;
+}
+.impar {
+  background-color: #c3f2ff;
+}

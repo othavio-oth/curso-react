@@ -15,10 +15,10 @@ export default () => (
   <div className="app">
     <h1 className="app-title">Fundamentos React</h1>
     <div className="app-exercises">
-      <Card title="Renderizando Tabela de Produtos" color="#fed766">
+      <Card title="Renderizando Tabela de Produtos" color="#0180fd">
         <ProductsTable />
       </Card>
-      <Card title="Renderizando Lista de Alunos" color="#fed766">
+      <Card title="Renderizando Lista de Alunos" color="#e81913">
         <StudentsList />
       </Card>
       <Card title="Componentes com filhos" color="#fe8a49">
@@ -34,7 +34,7 @@ export default () => (
       <Card title="Como usar parâmetros" color="#88B04B">
         <WithParams nome="Augusto" nota={8.2}></WithParams>
       </Card>
-      <Card title="Como criar um componente" color="#F7CAC9">
+      <Card title="Como criar um componente" color="#d44a02">
         <First></First>
       </Card>
     </div>

@@ -1,9 +1,11 @@
+import "./products-table.css";
+
 import React from "react";
 import products from "../../data/products";
 export default () => {
   const productsList = products.map((product) => {
     return (
-      <tr>
+      <tr className={product.id % 2 === 0 ? "par" : "impar"}>
         <td>{product.id}</td>
         <td>{product.name}</td>
         <td>{product.price}</td>
@@ -13,8 +15,8 @@ export default () => {
 
   return (
     <div>
-      <table>
-        <thead>
+      <table className="products-table">
+        <thead className="table-head">
           <tr>
             <th>Id</th>
             <th>Nome</th>
