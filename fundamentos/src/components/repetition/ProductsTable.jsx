@@ -5,7 +5,7 @@ import products from "../../data/products";
 export default () => {
   const productsList = products.map((product) => {
     return (
-      <tr className={product.id % 2 === 0 ? "par" : "impar"}>
+      <tr key={product.key} className={product.id % 2 === 0 ? "par" : "impar"}>
         <td>{product.id}</td>
         <td>{product.name}</td>
         <td>{product.price}</td>

@@ -1,0 +1,6 @@
+.content {
+  background-color: #ddd;
+  display: flex;
+  flex-grow: 1;
+  padding: 2rem;
+}
