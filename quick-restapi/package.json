@@ -1,0 +1,19 @@
+{
+  "name": "quick-restapi",
+  "version": "1.0.0",
+  "description": "Build A REST API With Node.js, Express, & MongoDB - Quick",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "author": "Othávio Sousa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ingredient_recipes",
+  "info": {
+    "singularName": "ingredient-recipe",
+    "pluralName": "ingredient-recipes",
+    "displayName": "IngredientRecipe"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ingredient": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::ingredient.ingredient",
+      "inversedBy": "ingredient_recipes"
+    },
+    "recipe": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::recipe.recipe",
+      "inversedBy": "ingredient_recipes"
+    },
+    "unit_of_measurement": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::unit-of-measurement.unit-of-measurement"
+    },
+    "amount": {
+      "type": "decimal"
+    }
+  }
+}

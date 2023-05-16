@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recipes",
+  "info": {
+    "singularName": "recipe",
+    "pluralName": "recipes",
+    "displayName": "Recipe",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "prepareMethod": {
+      "type": "text"
+    },
+    "timeToPrepare": {
+      "type": "integer"
+    },
+    "ingredient_recipes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::ingredient-recipe.ingredient-recipe",
+      "mappedBy": "recipe"
+    }
+  }
+}
